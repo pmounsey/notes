@@ -1,7 +1,7 @@
 ## Obtain Alpine Image
 [Download Alpine Image](https://alpinelinux.org/downloads/)
 
-## Write image do boot media
+## Create media boot image 
 ```
 dd if="$HOME/Downloads/alpine.iso" of=/dev/sdb
 
